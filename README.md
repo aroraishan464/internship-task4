@@ -1,3 +1,6 @@
+Create .env file with 2 variables 'REACT_APP_WEATHER_API_KEY' and 'REACT_APP_CITY_ID'
+run npm install and then npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

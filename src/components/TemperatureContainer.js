@@ -11,7 +11,10 @@ const TemperatureContainer = ({ tempData, fetchTemperature }) => {
     ) : tempData.error ? (
         <h1>{tempData.error}</h1>
     ) : (
+        <React.Fragment>
         <h1>{tempData.temp} Degree Celcius</h1>
+        <h2>{tempData.city}</h2>
+        </React.Fragment>
     )
 }
 

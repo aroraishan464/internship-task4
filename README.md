@@ -1,4 +1,4 @@
-1. Create .env file with 1 variables 'REACT_APP_WEATHER_API_KEY' (containing your api key for open weather) 
+1. Create .env file with 1 variables 'REACT_APP_WEATHER_API_KEY' (containing your api key for openweathermap) 
 2. Run npm install and then npm start
 
 (The first city of which the temperature is shown of is my hometown :)

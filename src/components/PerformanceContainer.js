@@ -40,7 +40,7 @@ function PerformanceContainer() {
             </div>
 
             <div id="starRating">
-                <div class="star-ratings-css" title=".41"></div>
+                <div className="star-ratings-css" title=".41"></div>
             </div>
 
             <h3 className="performanceContainerText" style={{ top: "100px", left: "440px" }}>(4.1)</h3>

@@ -4,7 +4,7 @@ import {
     buildStyles
 } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import { easeQuadInOut } from "d3-ease";
+import { easeQuadOut } from "d3-ease";
 import AnimationProgressProvider from "./AnimationProgressProvider";
 
 function ProgressBar() {
@@ -13,7 +13,7 @@ function ProgressBar() {
             valueStart={0}
             valueEnd={90}
             duration={0.5}
-            easingFunction={easeQuadInOut}
+            easingFunction={easeQuadOut}
         >
             {value => {
                 const roundedValue = Math.round(value);

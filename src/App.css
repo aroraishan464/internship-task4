@@ -3,7 +3,7 @@ body {
 }
 
 .App {
-  height: 700px;
+  height: 768px;
   width: 1366px;
   position: absolute;
   top: 0;
@@ -91,7 +91,7 @@ body {
   color: #515151;
 }
 
-#performanceMonth{
+#performanceMonth {
   display: inline;
   position: absolute;
   top: 159px;
@@ -104,11 +104,11 @@ body {
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
-  color: #3F0E40;
+  color: #3f0e40;
   cursor: pointer;
 }
 
-.progressBar{
+.progressBar {
   display: inline;
   position: absolute;
   width: 80.62px;
@@ -133,10 +133,10 @@ body {
   margin: 0 auto;
   position: relative;
   text-shadow: 0 1px 0 #a2a2a2;
-} 
-.star-ratings-css::before { 
-  content: '★★★★★';
-  opacity: .3;
+}
+.star-ratings-css::before {
+  content: "★★★★★";
+  opacity: 0.3;
 }
 
 [title=".41"]::after {
@@ -147,20 +147,23 @@ body {
 }
 
 @keyframes example {
-  0% {width: 0%;}  
-  100% {width: 91%;}
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 91%;
+  }
 }
-
 
 .star-ratings-css::after {
   color: gold;
-  content: '★★★★★';
+  content: "★★★★★";
   text-shadow: 0 1px 0 #ab5414;
   position: absolute;
   z-index: 1;
   display: block;
   left: 0;
-  top:0;
+  top: 0;
   width: attr(rating);
   overflow: hidden;
 }
@@ -179,4 +182,100 @@ body {
   line-height: 21px;
   letter-spacing: 0.02em;
   color: #515151;
+}
+
+#dayMenu {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 319px;
+  left: 158px;
+  width: 1049px;
+  height: 27px;
+  background: #e2e2e2;
+  border-radius: 13.5px;
+}
+
+.days {
+  display: inline;
+  width: 135px;
+  height: 100%;
+  text-align: center;
+  border-radius: 13.5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  padding-top: 3px;
+  text-transform: uppercase;
+}
+
+.daysCardsContainer{
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  top: 348px;
+  left: 158px;
+  width: 1049px;
+  margin-bottom: 25px;
+  height: auto;
+}
+
+.daywiseActivities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 6px 8px 15px 8px;
+  border-radius: 14px;
+}
+
+.cardContainer {
+  display: block;
+  width: 135px;
+  height: auto;
+  border: 0.5px solid #939393;
+  margin-top: 5px;
+  background: white;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.cardHeading {
+  background: #f86624;
+  width: 135px;
+  height: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: white;
+  padding-left: 4px;
+}
+
+.cardContent {
+  margin: 0px 2px 0px 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  color: #515151;
+  width: 91%;
+  word-break: break-all;
+}
+
+.cardDateTime {
+  margin: 2px 2px 3px 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: #515151;
+  width: 91%;
 }
